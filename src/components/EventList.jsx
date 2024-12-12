@@ -104,7 +104,7 @@ const EventList = () => {
         </div>
         <div className="col-md-3">
           <label htmlFor="startDate" className="form-label">
-            Pradžios data
+            Renginio data
           </label>
           <input
             type="date"
@@ -115,19 +115,7 @@ const EventList = () => {
             onChange={handleFilterChange}
           />
         </div>
-        <div className="col-md-3">
-          <label htmlFor="endDate" className="form-label">
-            Pabaigos data
-          </label>
-          <input
-            type="date"
-            id="endDate"
-            name="endDate"
-            className="form-control"
-            value={filters.endDate}
-            onChange={handleFilterChange}
-          />
-        </div>
+        
         <div className="col-md-2 d-flex align-items-end">
           <button type="submit" className="btn btn-primary w-100">
             Filtruoti
